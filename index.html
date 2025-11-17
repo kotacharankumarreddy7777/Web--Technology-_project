@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Stationery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    /* Small, local styles to provide visible press feedback for header nav buttons */
+    header nav a.pressed {
+        transform: translateY(2px) scale(0.985);
+        box-shadow: inset 0 0 8px rgba(0,0,0,0.06);
+        opacity: 0.96;
+        transition: transform 120ms ease, opacity 120ms ease;
+    }
+    /* Provide a fallback for devices that honor :active */
+    header nav a:active {
+        transform: translateY(2px) scale(0.985);
+    }
+    </style>
+</head>
+<body>
+    <!-- HEADER / LOGO -->
+    <header>
+        <div class="logo">
+            <h1 id="storeName">
+                <span>N</span><span>a</span><span>v</span><span>e</span><span>e</span><span>n</span> 
+                <span>S</span><span>t</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>e</span><span>r</span><span>y</span>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <h2>Welcome to Naveen Stationery</h2>
+        <p>Your one-stop shop for notebooks, pens, art supplies & more!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- PRODUCTS GRID -->
+  <!-- PRODUCTS GRID -->
+<section id="products" class="products">
+    <h2>Our Products</h2>
+    <div id="product-grid" class="grid">
+        <!-- Big product -->
+        <div class="product big">
+            <div class="product-logo">🖊️</div>
+            <h3>Luxury Pen</h3>
+            <p>Premium quality pen for professionals.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Small products -->
+        <div class="product small">
+            <div class="product-logo bg-ff6f61">📓</div>
+            <h3>Notebook</h3>
+            <p>Colorful notebook for school & office.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-6b5b95">✏️</div>
+            <h3>Pencil Set</h3>
+            <p>High-quality pencil set for artists.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-88b04b">🖍️</div>
+            <h3>Crayons</h3>
+            <p>Bright crayons for kids and creative projects.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-f7cac9">✂️</div>
+            <h3>Scissors</h3>
+            <p>Safe and sharp scissors for all uses.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-92a8d1">📏</div>
+            <h3>Ruler</h3>
+            <p>Accurate measuring ruler for students & professionals.</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- MORE PRODUCTS ADDED -->
+        <div class="product small">
+            <div class="product-logo bg-ffb347">🗂️</div>
+            <h3>File Organizer</h3>
+            <p>Keep your documents neat and tidy.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-6c5b7b">🖊️</div>
+            <h3>Gel Pens</h3>
+            <p>Smooth writing pens in multiple colors.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-f67280">📐</div>
+            <h3>Geometry Set</h3>
+            <p>All essential tools for school geometry.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-c06c84">📎</div>
+            <h3>Paper Clips</h3>
+            <p>High-quality clips for documents.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-355c7d">🖌️</div>
+            <h3>Brush Set</h3>
+            <p>Professional painting brushes for artists.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-f8b195">📝</div>
+            <h3>Sticky Notes</h3>
+            <p>Colorful sticky notes for reminders and memos.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-6a0572">📦</div>
+            <h3>Packaging Tape</h3>
+            <p>Strong adhesive tape for packaging and shipping.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-f5a623">🖋️</div>
+            <h3>Calligraphy Pen</h3>
+            <p>Elegant pen for artistic writing and invitations.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-ffd166">📌</div>
+            <h3>Stapler</h3>
+            <p>Durable stapler for everyday office and school use.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-06d6a0">🧽</div>
+            <h3>Eraser Pack</h3>
+            <p>Soft erasers that cleanly remove pencil marks.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-118ab2">📋</div>
+            <h3>Clipboard</h3>
+            <p>Lightweight clipboard with sturdy clip for forms and notes.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-ef476f">🖊️</div>
+            <h3>Whiteboard Marker</h3>
+            <p>Low-odor marker with bold, erasable ink.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product small">
+            <div class="product-logo bg-8ac926">🧴</div>
+            <h3>Glue Stick</h3>
+            <p>Non-toxic glue stick for paper crafts and school projects.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section> <br>
+<!-- CATEGORIES SECTION -->
+<section id="categories" class="categories">
+    <h2>Shop By Category</h2>
+    <div id="category-grid" class="category-grid">
+        <button class="category-card" data-category="all">All</button>
+        <button class="category-card" data-category="notebook">Notebooks</button>
+        <button class="category-card" data-category="pen">Pens</button>
+        <button class="category-card" data-category="art">Art Supplies</button>
+        <button class="category-card" data-category="office">Office</button>
+        <button class="category-card" data-category="accessory">Accessories</button>
+    </div>
+</section> <br>
+<section id="contact" class="contact">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> <a href="tel:+1234567890">+123-456-7890</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@naveenstationery.example">info@naveenstationery.example</a></p>
+            <p><strong>Address:</strong> 123 Stationery Lane, Paper Town, PT 45678</p>
+            <p><strong>Opening Hours:</strong><br>Mon-Fri: 9:00am - 7:00pm<br>Sat: 10:00am - 5:00pm<br>Sun: Closed</p>
+            <div class="contact-actions">
+                <a class="btn" href="#">Get Directions</a>
+                <a class="btn" href="tel:+1234567890">Call Us</a>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <h3>Send a Message</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p class="form-status" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Naveen Stationery</h3>
+                <p>Premium stationery store offering notebooks, pens, art supplies, and accessories for professionals, students, and artists. Quality products with style.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section support">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe for updates, offers & promotions</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-icons">
+                    <a href="#">FB</a>
+                    <a href="#">TW</a>
+                    <a href="#">IG</a>
+                    <a href="#">LI</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Naveen Stationery. All rights reserved. | Designed with ❤️ by Naveen</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT FOR LOGO ANIMATION -->
+    <script>
+        const letters = document.querySelectorAll("#storeName span");
+        letters.forEach((letter, index) => {
+            letter.style.transform = `translate(${Math.random()*200-100}px, ${Math.random()*200-100}px)`;
+            letter.style.opacity = 0;
+            setTimeout(() => {
+                letter.style.transition = "all 1s ease";
+                letter.style.transform = "translate(0,0)";
+                letter.style.opacity = 1;
+            }, index * 150);
+        });
+    </script>
+    <script>
+/* mouse-follow spotlight for glass logos */
+document.querySelectorAll('.product').forEach(product => {
+  const logo = product.querySelector('.product-logo');
+  if (!logo) return;
+
+  // set sensible initial variables
+  logo.style.setProperty('--x', '50%');
+  logo.style.setProperty('--y', '20%');
+
+  product.addEventListener('mousemove', (e) => {
+    const rect = logo.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    logo.style.setProperty('--x', x + '%');
+    logo.style.setProperty('--y', y + '%');
+  });
+
+  // subtle reset when leaving
+  product.addEventListener('mouseleave', () => {
+    logo.style.setProperty('--x', '50%');
+    logo.style.setProperty('--y', '20%');
+  });
+});
+</script>
+<script>
+// Contact form basic handler (no backend) — shows a confirmation message
+document.getElementById('contactForm')?.addEventListener('submit', function(e){
+    e.preventDefault();
+    const status = this.querySelector('.form-status');
+    status.textContent = 'Sending message...';
+    // simulate async send
+    setTimeout(()=>{
+        status.textContent = 'Thanks! Your message has been received. We will reply soon.';
+        this.reset();
+    }, 800);
+});
+</script>
+
+<!-- Small script to toggle 'active' class on header nav links so button styles work live -->
+<script>
+    (function(){
+        const links = Array.from(document.querySelectorAll('header nav a'));
+        if (!links.length) return;
+
+        // click: set active class (single-source)
+        links.forEach(a => {
+            a.addEventListener('click', function(e){
+                links.forEach(x => x.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Press feedback: prefer PointerEvents, fall back to touch events
+        function addPressHandlers(el){
+            const add = () => el.classList.add('pressed');
+            const remove = () => el.classList.remove('pressed');
+
+            if (window.PointerEvent) {
+                el.addEventListener('pointerdown', add);
+                el.addEventListener('pointerup', remove);
+                el.addEventListener('pointercancel', remove);
+                el.addEventListener('pointerleave', remove);
+            } else {
+                el.addEventListener('touchstart', add, {passive:true});
+                el.addEventListener('touchend', remove);
+                el.addEventListener('touchcancel', remove);
+                el.addEventListener('mouseleave', remove);
+            }
+
+            // keyboard: show brief pressed state when activating via keyboard
+            el.addEventListener('keydown', (ev) => {
+                if (ev.key === ' ' || ev.key === 'Enter') {
+                    add();
+                    setTimeout(remove, 160);
+                }
+            });
+        }
+
+        links.forEach(addPressHandlers);
+    })();
+</script>
+
+</body>
+</html>
